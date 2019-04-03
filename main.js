@@ -13,9 +13,7 @@ function attackRound(event) {
         monster.respawn();
         player.levelUp();
         updateLevel();
-    }
-    
-    if (player.isAlive) {
+    } else if (player.isAlive) {
         player.fight(monster)
     } else {
         gameOver();

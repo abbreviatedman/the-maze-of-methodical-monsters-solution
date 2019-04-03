@@ -9,3 +9,10 @@
     height: 20px;
     background-color: red;
 }
+
+.health-bar {
+    display: flex;
+    justify-content: flex-end;
+    transition: width 1s;
+    color: white;
+}
